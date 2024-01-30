@@ -3,6 +3,7 @@
     {
       "name": "CrystallizerPlayerFinishesUsingItem",
       "type": "procedure",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystallizer_player_finishes_using_item",
@@ -30,12 +31,48 @@
           "src/main/resources/assets/tmz_utils/models/item/crystallizer.json"
         ]
       }
+    },
+    {
+      "name": "Electrified",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrified",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tmzutils/potion/ElectrifiedMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "ElectrifiedOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrified_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tmzutils/procedures/ElectrifiedOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "effect.tmz_utils.electrified": "Electrified",
       "item.tmz_utils.crystallizer": "Crystallizer"
     }
   },

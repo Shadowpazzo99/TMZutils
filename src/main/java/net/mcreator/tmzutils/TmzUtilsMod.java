@@ -16,6 +16,7 @@ import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
 import net.mcreator.tmzutils.init.TmzUtilsModProcedures;
+import net.mcreator.tmzutils.init.TmzUtilsModMobEffects;
 import net.mcreator.tmzutils.init.TmzUtilsModItems;
 
 import net.fabricmc.api.ModInitializer;
@@ -27,6 +28,8 @@ public class TmzUtilsMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing TmzUtilsMod");
+
+		TmzUtilsModMobEffects.load();
 
 		TmzUtilsModItems.load();
 

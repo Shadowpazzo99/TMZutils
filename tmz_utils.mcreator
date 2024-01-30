@@ -66,6 +66,75 @@
           }
         ]
       }
+    },
+    {
+      "name": "ReinforcedLeatherArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_leather_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tmzutils/item/ReinforcedLeatherArmorItem.java",
+          "src/main/resources/assets/tmz_utils/models/item/reinforced_leather_armor_chestplate.json",
+          "src/main/resources/assets/tmz_utils/models/item/reinforced_leather_armor_leggings.json",
+          "src/main/resources/assets/tmz_utils/models/item/reinforced_leather_armor_boots.json",
+          "src/main/resources/assets/tmz_utils/models/item/reinforced_leather_armor_helmet.json"
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "ReinforcedLeatherArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_leather_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tmz_utils/recipes/reinforced_leather_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "ReinforcedLeatherArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_leather_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tmz_utils/recipes/reinforced_leather_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "ReinforcedLeatherArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_leather_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tmz_utils/recipes/reinforced_leather_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "ReinforcedLeatherArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_leather_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tmz_utils/recipes/reinforced_leather_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Armor"
     }
   ],
   "variable_elements": [],
@@ -73,7 +142,11 @@
   "language_map": {
     "en_us": {
       "effect.tmz_utils.electrified": "Electrified",
-      "item.tmz_utils.crystallizer": "Crystallizer"
+      "item.tmz_utils.reinforced_leather_armor_chestplate": "ReinforcedLeather Chestplate",
+      "item.tmz_utils.reinforced_leather_armor_boots": "ReinforcedLeather Boots",
+      "item.tmz_utils.reinforced_leather_armor_helmet": "ReinforcedLeather Helmet",
+      "item.tmz_utils.crystallizer": "Crystallizer",
+      "item.tmz_utils.reinforced_leather_armor_leggings": "ReinforcedLeather Leggings"
     }
   },
   "foldersRoot": {

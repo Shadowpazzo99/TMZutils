@@ -28,7 +28,7 @@ public abstract class ReinforcedLeatherArmorItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForType(Type type) {
-				return new int[]{3, 5, 4, 3}[type.getSlot().getIndex()];
+				return new int[]{3, 4, 4, 3}[type.getSlot().getIndex()];
 			}
 
 			@Override

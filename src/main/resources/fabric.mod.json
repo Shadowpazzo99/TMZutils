@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "tmz_utils",
+  "version": "1.0.0",
+  "name": "TMZ utils",
+  "authors": [
+    "ShadowPazzo"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.tmzutils.TmzUtilsMod"
+    ],
+    "client": [
+      "net.mcreator.tmzutils.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "tmz_utils.mixins.json"
+  ]
+}

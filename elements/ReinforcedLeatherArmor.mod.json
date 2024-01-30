@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "reinforcedleather_head",
+    "textureHelmet": "reinforced_helmet",
     "enableBody": true,
     "textureBody": "reinforcedleather_body",
     "enableLeggings": true,
-    "textureLeggings": "reinforcedleather_leggings",
+    "textureLeggings": "reinforced_leggings",
     "enableBoots": true,
-    "textureBoots": "reinforcedleather_boots",
+    "textureBoots": "reinforced_leggings",
     "creativeTab": {
       "value": "COMBAT"
     },

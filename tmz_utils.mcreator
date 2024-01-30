@@ -36,6 +36,7 @@
     {
       "name": "Electrified",
       "type": "potioneffect",
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "electrified",

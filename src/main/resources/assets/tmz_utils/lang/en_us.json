@@ -1,8 +1,13 @@
 {
   "effect.tmz_utils.electrified": "Electrified",
+  "item.tmz_utils.cooler_core": "Cooler Core",
   "item.tmz_utils.reinforced_leather_armor_chestplate": "Reinforced Leather Chestplate",
   "item.tmz_utils.reinforced_leather_armor_boots": "Reinforced Leather Boots",
+  "item.tmz_utils.ice_armor_armor_leggings": "IceArmor Leggings",
+  "item.tmz_utils.ice_armor_armor_helmet": "IceArmor Helmet",
+  "item.tmz_utils.ice_armor_armor_boots": "IceArmor Boots",
   "item.tmz_utils.reinforced_leather_armor_helmet": "Reinforced Leather Helmet",
   "item.tmz_utils.crystallizer": "Crystallizer",
+  "item.tmz_utils.ice_armor_armor_chestplate": "IceArmor Chestplate",
   "item.tmz_utils.reinforced_leather_armor_leggings": "Reinforced Leather Leggings"
 }

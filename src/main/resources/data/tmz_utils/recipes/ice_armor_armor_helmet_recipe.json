@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond"
+    },
+    "1": {
+      "item": "tmz_utils:cooler_core"
+    },
+    "2": {
+      "item": "minecraft:diamond"
+    },
+    "3": {
+      "item": "minecraft:packed_ice"
+    },
+    "5": {
+      "item": "minecraft:packed_ice"
+    }
+  },
+  "result": {
+    "item": "tmz_utils:ice_armor_armor_helmet",
+    "count": 1
+  }
+}

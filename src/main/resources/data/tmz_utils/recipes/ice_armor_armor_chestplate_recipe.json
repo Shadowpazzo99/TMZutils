@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond"
+    },
+    "2": {
+      "item": "minecraft:diamond"
+    },
+    "3": {
+      "item": "minecraft:diamond"
+    },
+    "4": {
+      "item": "tmz_utils:cooler_core"
+    },
+    "5": {
+      "item": "minecraft:diamond"
+    },
+    "6": {
+      "item": "minecraft:packed_ice"
+    },
+    "7": {
+      "item": "minecraft:packed_ice"
+    },
+    "8": {
+      "item": "minecraft:packed_ice"
+    }
+  },
+  "result": {
+    "item": "tmz_utils:ice_armor_armor_chestplate",
+    "count": 1
+  }
+}

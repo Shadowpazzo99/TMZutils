@@ -85,7 +85,7 @@
           "src/main/resources/assets/tmz_utils/models/item/reinforced_leather_armor_helmet.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/Armor/Heating"
     },
     {
       "name": "ReinforcedLeatherArmorHelmetRecipe",
@@ -99,7 +99,7 @@
           "src/main/resources/data/tmz_utils/recipes/reinforced_leather_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/Armor/Heating"
     },
     {
       "name": "ReinforcedLeatherArmorChestplateRecipe",
@@ -113,7 +113,7 @@
           "src/main/resources/data/tmz_utils/recipes/reinforced_leather_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/Armor/Heating"
     },
     {
       "name": "ReinforcedLeatherArmorLeggingsRecipe",
@@ -127,7 +127,7 @@
           "src/main/resources/data/tmz_utils/recipes/reinforced_leather_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/Armor/Heating"
     },
     {
       "name": "ReinforcedLeatherArmorBootsRecipe",
@@ -141,7 +141,121 @@
           "src/main/resources/data/tmz_utils/recipes/reinforced_leather_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Armor"
+      "path": "~/Armor/Heating"
+    },
+    {
+      "name": "IceMaking",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_making",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/ice.json"
+        ]
+      }
+    },
+    {
+      "name": "CoolingCore",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooling_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tmz_utils/recipes/cooling_core.json"
+        ]
+      }
+    },
+    {
+      "name": "CoolerCore",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooler_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tmz_utils/models/item/cooler_core.json",
+          "src/main/java/net/mcreator/tmzutils/item/CoolerCoreItem.java"
+        ]
+      }
+    },
+    {
+      "name": "IceArmorArmor",
+      "type": "armor",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_armor_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tmzutils/item/IceArmorArmorItem.java",
+          "src/main/resources/assets/tmz_utils/models/item/ice_armor_armor_chestplate.json",
+          "src/main/resources/assets/tmz_utils/models/item/ice_armor_armor_leggings.json",
+          "src/main/resources/assets/tmz_utils/models/item/ice_armor_armor_helmet.json",
+          "src/main/resources/assets/tmz_utils/models/item/ice_armor_armor_boots.json"
+        ]
+      },
+      "path": "~/Armor/Cooling"
+    },
+    {
+      "name": "IceArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_armor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tmz_utils/recipes/ice_armor_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Armor/Cooling"
+    },
+    {
+      "name": "IceArmorArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_armor_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tmz_utils/recipes/ice_armor_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Armor/Cooling"
+    },
+    {
+      "name": "IceArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_armor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tmz_utils/recipes/ice_armor_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Armor/Cooling"
+    },
+    {
+      "name": "IceArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_armor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tmz_utils/recipes/ice_armor_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Armor/Cooling"
     }
   ],
   "variable_elements": [],
@@ -149,10 +263,15 @@
   "language_map": {
     "en_us": {
       "effect.tmz_utils.electrified": "Electrified",
+      "item.tmz_utils.cooler_core": "Cooler Core",
       "item.tmz_utils.reinforced_leather_armor_chestplate": "Reinforced Leather Chestplate",
       "item.tmz_utils.reinforced_leather_armor_boots": "Reinforced Leather Boots",
+      "item.tmz_utils.ice_armor_armor_leggings": "IceArmor Leggings",
+      "item.tmz_utils.ice_armor_armor_helmet": "IceArmor Helmet",
+      "item.tmz_utils.ice_armor_armor_boots": "IceArmor Boots",
       "item.tmz_utils.reinforced_leather_armor_helmet": "Reinforced Leather Helmet",
       "item.tmz_utils.crystallizer": "Crystallizer",
+      "item.tmz_utils.ice_armor_armor_chestplate": "IceArmor Chestplate",
       "item.tmz_utils.reinforced_leather_armor_leggings": "Reinforced Leather Leggings"
     }
   },
@@ -161,7 +280,16 @@
     "children": [
       {
         "name": "Armor",
-        "children": []
+        "children": [
+          {
+            "name": "Cooling",
+            "children": []
+          },
+          {
+            "name": "Heating",
+            "children": []
+          }
+        ]
       }
     ]
   },

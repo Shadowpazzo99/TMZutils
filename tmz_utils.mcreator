@@ -41,7 +41,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Armor",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "tmz_utils",

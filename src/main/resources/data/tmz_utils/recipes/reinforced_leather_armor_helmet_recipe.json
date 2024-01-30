@@ -7,13 +7,13 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:leather"
+      "item": "minecraft:string"
     },
     "1": {
-      "item": "minecraft:leather"
+      "item": "minecraft:iron_ingot"
     },
     "2": {
-      "item": "minecraft:leather"
+      "item": "minecraft:string"
     },
     "3": {
       "item": "minecraft:leather"

@@ -22,6 +22,7 @@
     {
       "name": "Crystallizer",
       "type": "item",
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystallizer",
@@ -70,6 +71,7 @@
     {
       "name": "ReinforcedLeatherArmor",
       "type": "armor",
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reinforced_leather_armor",
@@ -87,6 +89,7 @@
     {
       "name": "ReinforcedLeatherArmorHelmetRecipe",
       "type": "recipe",
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reinforced_leather_armor_helmet_recipe",
@@ -100,6 +103,7 @@
     {
       "name": "ReinforcedLeatherArmorChestplateRecipe",
       "type": "recipe",
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reinforced_leather_armor_chestplate_recipe",
@@ -113,6 +117,7 @@
     {
       "name": "ReinforcedLeatherArmorLeggingsRecipe",
       "type": "recipe",
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reinforced_leather_armor_leggings_recipe",
@@ -126,6 +131,7 @@
     {
       "name": "ReinforcedLeatherArmorBootsRecipe",
       "type": "recipe",
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "reinforced_leather_armor_boots_recipe",
@@ -142,11 +148,11 @@
   "language_map": {
     "en_us": {
       "effect.tmz_utils.electrified": "Electrified",
-      "item.tmz_utils.reinforced_leather_armor_chestplate": "ReinforcedLeather Chestplate",
-      "item.tmz_utils.reinforced_leather_armor_boots": "ReinforcedLeather Boots",
-      "item.tmz_utils.reinforced_leather_armor_helmet": "ReinforcedLeather Helmet",
+      "item.tmz_utils.reinforced_leather_armor_chestplate": "Reinforced Leather Chestplate",
+      "item.tmz_utils.reinforced_leather_armor_boots": "Reinforced Leather Boots",
+      "item.tmz_utils.reinforced_leather_armor_helmet": "Reinforced Leather Helmet",
       "item.tmz_utils.crystallizer": "Crystallizer",
-      "item.tmz_utils.reinforced_leather_armor_leggings": "ReinforcedLeather Leggings"
+      "item.tmz_utils.reinforced_leather_armor_leggings": "Reinforced Leather Leggings"
     }
   },
   "foldersRoot": {

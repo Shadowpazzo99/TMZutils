@@ -12,13 +12,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.LEATHER"
+        "value": "Items.STRING"
       },
       {
-        "value": "Items.LEATHER"
+        "value": "Items.IRON_INGOT"
       },
       {
-        "value": "Items.LEATHER"
+        "value": "Items.STRING"
       },
       {
         "value": "Items.LEATHER"

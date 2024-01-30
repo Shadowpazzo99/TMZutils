@@ -9,6 +9,8 @@ import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.registries.BuiltInRegistries;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.api.Environment;
@@ -21,22 +23,22 @@ public abstract class ReinforcedLeatherArmorItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForType(Type type) {
-				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 15;
+				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 17;
 			}
 
 			@Override
 			public int getDefenseForType(Type type) {
-				return new int[]{2, 6, 5, 2}[type.getSlot().getIndex()];
+				return new int[]{3, 5, 4, 3}[type.getSlot().getIndex()];
 			}
 
 			@Override
 			public int getEnchantmentValue() {
-				return 9;
+				return 20;
 			}
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return null;
+				return BuiltInRegistries.SOUND_EVENT.get(new ResourceLocation("item.armor.equip_leather"));
 			}
 
 			@Override
@@ -57,7 +59,7 @@ public abstract class ReinforcedLeatherArmorItem extends ArmorItem {
 
 			@Override
 			public float getKnockbackResistance() {
-				return 0f;
+				return 0.05f;
 			}
 		}, type, properties);
 	}

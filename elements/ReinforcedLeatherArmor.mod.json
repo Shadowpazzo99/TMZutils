@@ -14,10 +14,10 @@
       "value": "COMBAT"
     },
     "armorTextureFile": "reinforcedleather",
-    "helmetName": "ReinforcedLeather Helmet",
-    "bodyName": "ReinforcedLeather Chestplate",
-    "leggingsName": "ReinforcedLeather Leggings",
-    "bootsName": "ReinforcedLeather Boots",
+    "helmetName": "Reinforced Leather Helmet",
+    "bodyName": "Reinforced Leather Chestplate",
+    "leggingsName": "Reinforced Leather Leggings",
+    "bootsName": "Reinforced Leather Boots",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],
@@ -50,16 +50,16 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
-    "maxDamage": 15,
-    "damageValueHelmet": 2,
-    "damageValueBody": 5,
-    "damageValueLeggings": 6,
-    "damageValueBoots": 2,
-    "enchantability": 9,
+    "maxDamage": 17,
+    "damageValueHelmet": 3,
+    "damageValueBody": 4,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 3,
+    "enchantability": 20,
     "toughness": 0.0,
-    "knockbackResistance": 0.0,
+    "knockbackResistance": 0.05,
     "equipSound": {
-      "value": ""
+      "value": "item.armor.equip_leather"
     },
     "repairItems": [
       {

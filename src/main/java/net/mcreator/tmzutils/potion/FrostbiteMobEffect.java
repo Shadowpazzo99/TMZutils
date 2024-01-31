@@ -1,8 +1,17 @@
 
 package net.mcreator.tmzutils.potion;
 
-public class FrostbiteMobEffect extends MobEffect {
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.ai.attributes.AttributeMap;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.effect.MobEffectCategory;
+import net.minecraft.world.effect.MobEffect;
 
+import net.mcreator.tmzutils.procedures.FrostbiteStartEffProcedure;
+import net.mcreator.tmzutils.procedures.FrostbiteEndEffProcedure;
+import net.mcreator.tmzutils.procedures.FrostbiteEffectProcedure;
+
+public class FrostbiteMobEffect extends MobEffect {
 	public FrostbiteMobEffect() {
 		super(MobEffectCategory.HARMFUL, -14928994);
 	}
@@ -19,7 +28,7 @@ public class FrostbiteMobEffect extends MobEffect {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		FrostbiteStartEffProcedure.execute();
+		FrostbiteStartEffProcedure.execute(entity);
 	}
 
 	@Override
@@ -29,7 +38,7 @@ public class FrostbiteMobEffect extends MobEffect {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		FrostbiteEffectProcedure.execute();
+		FrostbiteEffectProcedure.execute(world, entity);
 	}
 
 	@Override
@@ -40,7 +49,7 @@ public class FrostbiteMobEffect extends MobEffect {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		FrostbiteEndEffProcedure.execute();
+		FrostbiteEndEffProcedure.execute(entity);
 	}
 
 	@Override

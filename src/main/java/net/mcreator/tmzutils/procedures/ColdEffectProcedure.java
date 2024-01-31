@@ -1,6 +1,9 @@
 package net.mcreator.tmzutils.procedures;
 
-import javax.annotation.Nullable;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.effect.MobEffectInstance;
 
 public class ColdEffectProcedure {
 	public static void execute(Entity entity) {

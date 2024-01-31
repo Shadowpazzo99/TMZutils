@@ -326,7 +326,7 @@
       "name": "Frostbite",
       "type": "potioneffect",
       "sortid": 32,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "frostbite",
       "metadata": {
@@ -360,7 +360,7 @@
       "name": "Cold",
       "type": "potioneffect",
       "sortid": 24,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "cold",
       "metadata": {
@@ -394,7 +394,7 @@
       "name": "FrostbiteStartEff",
       "type": "procedure",
       "sortid": 35,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "frostbite_start_eff",
       "metadata": {
@@ -414,7 +414,7 @@
       "name": "ColdEffect",
       "type": "procedure",
       "sortid": 25,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "cold_effect",
       "metadata": {
@@ -434,7 +434,7 @@
       "name": "SevereColdEndEff",
       "type": "procedure",
       "sortid": 30,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "severe_cold_end_eff",
       "metadata": {
@@ -454,7 +454,7 @@
       "name": "FrostbiteEndEff",
       "type": "procedure",
       "sortid": 34,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "frostbite_end_eff",
       "metadata": {
@@ -474,7 +474,7 @@
       "name": "CrystalizationStartEff",
       "type": "procedure",
       "sortid": 39,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "crystalization_start_eff",
       "metadata": {
@@ -494,7 +494,7 @@
       "name": "ModeratelyColdEndEff",
       "type": "procedure",
       "sortid": 23,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "moderately_cold_end_eff",
       "metadata": {
@@ -534,7 +534,7 @@
       "name": "SevereColdStartEff",
       "type": "procedure",
       "sortid": 31,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "severe_cold_start_eff",
       "metadata": {
@@ -578,7 +578,7 @@
       "name": "FrostbiteEffect",
       "type": "procedure",
       "sortid": 33,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "frostbite_effect",
       "metadata": {
@@ -602,7 +602,7 @@
       "name": "SevereColdEffect",
       "type": "procedure",
       "sortid": 29,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "severe_cold_effect",
       "metadata": {

@@ -258,23 +258,88 @@
         ]
       },
       "path": "~/Armor/Cooling"
+    },
+    {
+      "name": "SlightlyCold",
+      "type": "potioneffect",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slightly_cold",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tmzutils/potion/SlightlyColdMobEffect.java"
+        ]
+      },
+      "path": "~/effects/Cold"
+    },
+    {
+      "name": "SlightlyColdEffect",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slightly_cold_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tmzutils/procedures/SlightlyColdEffectProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/effects/Cold"
+    },
+    {
+      "name": "ModeratelyCold",
+      "type": "potioneffect",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moderately_cold",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tmzutils/potion/ModeratelyColdMobEffect.java"
+        ]
+      },
+      "path": "~/effects/Cold"
+    },
+    {
+      "name": "ModeratelyColdEffect",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moderately_cold_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tmzutils/procedures/ModeratelyColdEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/effects/Cold"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "effect.tmz_utils.electrified": "Electrified",
-      "item.tmz_utils.cooler_core": "Cooler Core",
       "item.tmz_utils.reinforced_leather_armor_chestplate": "Reinforced Leather Chestplate",
-      "item.tmz_utils.reinforced_leather_armor_boots": "Reinforced Leather Boots",
       "item.tmz_utils.ice_armor_armor_leggings": "IceArmor Leggings",
-      "item.tmz_utils.ice_armor_armor_helmet": "IceArmor Helmet",
+      "effect.tmz_utils.moderately_cold": "Moderately Cold",
       "item.tmz_utils.ice_armor_armor_boots": "IceArmor Boots",
       "item.tmz_utils.reinforced_leather_armor_helmet": "Reinforced Leather Helmet",
+      "item.tmz_utils.reinforced_leather_armor_leggings": "Reinforced Leather Leggings",
+      "effect.tmz_utils.electrified": "Electrified",
+      "item.tmz_utils.cooler_core": "Cooler Core",
+      "item.tmz_utils.reinforced_leather_armor_boots": "Reinforced Leather Boots",
+      "item.tmz_utils.ice_armor_armor_helmet": "IceArmor Helmet",
+      "effect.tmz_utils.slightly_cold": "Slightly Cold",
       "item.tmz_utils.crystallizer": "Crystallizer",
-      "item.tmz_utils.ice_armor_armor_chestplate": "IceArmor Chestplate",
-      "item.tmz_utils.reinforced_leather_armor_leggings": "Reinforced Leather Leggings"
+      "item.tmz_utils.ice_armor_armor_chestplate": "IceArmor Chestplate"
     }
   },
   "foldersRoot": {
@@ -295,7 +360,12 @@
       },
       {
         "name": "effects",
-        "children": []
+        "children": [
+          {
+            "name": "Cold",
+            "children": []
+          }
+        ]
       }
     ]
   },

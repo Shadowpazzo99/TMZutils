@@ -4,6 +4,8 @@
  */
 package net.mcreator.tmzutils.init;
 
+import net.mcreator.tmzutils.procedures.SlightlyColdEffectProcedure;
+import net.mcreator.tmzutils.procedures.ModeratelyColdEffectProcedure;
 import net.mcreator.tmzutils.procedures.ElectrifiedOnEffectActiveTickProcedure;
 import net.mcreator.tmzutils.procedures.CrystallizerPlayerFinishesUsingItemProcedure;
 
@@ -12,5 +14,7 @@ public class TmzUtilsModProcedures {
 	public static void load() {
 		new ElectrifiedOnEffectActiveTickProcedure();
 		new CrystallizerPlayerFinishesUsingItemProcedure();
+		new SlightlyColdEffectProcedure();
+		new ModeratelyColdEffectProcedure();
 	}
 }

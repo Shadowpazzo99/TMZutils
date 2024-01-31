@@ -23,7 +23,7 @@ public abstract class ReinforcedLeatherArmorItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForType(Type type) {
-				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 17;
+				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 22;
 			}
 
 			@Override

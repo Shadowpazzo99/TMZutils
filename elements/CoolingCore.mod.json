@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.STONE#1"
+      "value": "CUSTOM:CoolerCore"
     },
     "name": "cooling_core",
     "namespace": "mod"

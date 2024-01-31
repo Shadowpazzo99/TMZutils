@@ -18,7 +18,7 @@ public class ElectrifiedOnEffectActiveTickProcedure {
 		double sy = 0;
 		double sz = 0;
 		if (entity.isInWater()) {
-			entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.LIGHTNING_BOLT)), 8);
+			entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.MAGIC)), 8);
 			if (entity instanceof LivingEntity _entity)
 				_entity.removeEffect(TmzUtilsModMobEffects.ELECTRIFIED);
 		}

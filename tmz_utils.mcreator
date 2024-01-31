@@ -44,7 +44,8 @@
         "files": [
           "src/main/java/net/mcreator/tmzutils/potion/ElectrifiedMobEffect.java"
         ]
-      }
+      },
+      "path": "~/effects"
     },
     {
       "name": "ElectrifiedOnEffectActiveTick",
@@ -67,7 +68,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/effects"
     },
     {
       "name": "ReinforcedLeatherArmor",
@@ -290,6 +292,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "effects",
+        "children": []
       }
     ]
   },

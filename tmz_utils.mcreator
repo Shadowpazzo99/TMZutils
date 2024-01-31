@@ -271,7 +271,7 @@
           "src/main/java/net/mcreator/tmzutils/potion/SlightlyColdMobEffect.java"
         ]
       },
-      "path": "~/effects/Cold/SlightCold"
+      "path": "~/effects/Cold"
     },
     {
       "name": "SlightlyColdEffect",
@@ -286,7 +286,7 @@
         ],
         "dependencies": []
       },
-      "path": "~/effects/Cold/SlightCold"
+      "path": "~/effects/Cold"
     },
     {
       "name": "ModeratelyCold",
@@ -300,7 +300,7 @@
           "src/main/java/net/mcreator/tmzutils/potion/ModeratelyColdMobEffect.java"
         ]
       },
-      "path": "~/effects/Cold/ModerateCold"
+      "path": "~/effects/Cold"
     },
     {
       "name": "ModeratelyColdEffect",
@@ -320,81 +320,21 @@
           }
         ]
       },
-      "path": "~/effects/Cold/ModerateCold"
+      "path": "~/effects/Cold"
     },
     {
-      "name": "ModeratelyColdStartEff",
-      "type": "procedure",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "moderately_cold_start_eff",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/tmzutils/procedures/ModeratelyColdStartEffProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/effects/Cold/ModerateCold"
-    },
-    {
-      "name": "ModeratelyColdEndEff",
-      "type": "procedure",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "moderately_cold_end_eff",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/tmzutils/procedures/ModeratelyColdEndEffProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/effects/Cold/ModerateCold"
-    },
-    {
-      "name": "Cold",
+      "name": "Frostbite",
       "type": "potioneffect",
-      "sortid": 24,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cold",
+      "registry_name": "frostbite",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tmzutils/potion/ColdMobEffect.java"
+          "src/main/java/net/mcreator/tmzutils/potion/FrostbiteMobEffect.java"
         ]
       },
-      "path": "~/effects/Cold/Cold"
-    },
-    {
-      "name": "ColdEffect",
-      "type": "procedure",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cold_effect",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/tmzutils/procedures/ColdEffectProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/effects/Cold/Cold"
+      "path": "~/effects/Cold"
     },
     {
       "name": "ColdEndEff",
@@ -417,151 +357,29 @@
       "path": "~/effects/Cold/Cold"
     },
     {
-      "name": "ColdStartEff",
-      "type": "procedure",
-      "sortid": 27,
+      "name": "Cold",
+      "type": "potioneffect",
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cold_start_eff",
+      "registry_name": "cold",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tmzutils/procedures/ColdStartEffProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
+          "src/main/java/net/mcreator/tmzutils/potion/ColdMobEffect.java"
         ]
       },
       "path": "~/effects/Cold/Cold"
     },
     {
-      "name": "SevereCold",
-      "type": "potioneffect",
-      "sortid": 28,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "severe_cold",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/tmzutils/potion/SevereColdMobEffect.java"
-        ]
-      },
-      "path": "~/effects/Cold/SevereCold"
-    },
-    {
-      "name": "SevereColdEffect",
+      "name": "CrystalizationEndEff",
       "type": "procedure",
-      "sortid": 29,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "severe_cold_effect",
+      "registry_name": "crystalization_end_eff",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tmzutils/procedures/SevereColdEffectProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/effects/Cold/SevereCold"
-    },
-    {
-      "name": "SevereColdEndEff",
-      "type": "procedure",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "severe_cold_end_eff",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/tmzutils/procedures/SevereColdEndEffProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/effects/Cold/SevereCold"
-    },
-    {
-      "name": "SevereColdStartEff",
-      "type": "procedure",
-      "sortid": 31,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "severe_cold_start_eff",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/tmzutils/procedures/SevereColdStartEffProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/effects/Cold/SevereCold"
-    },
-    {
-      "name": "Frostbite",
-      "type": "potioneffect",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "frostbite",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/tmzutils/potion/FrostbiteMobEffect.java"
-        ]
-      },
-      "path": "~/effects/Cold"
-    },
-    {
-      "name": "FrostbiteEffect",
-      "type": "procedure",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "frostbite_effect",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/tmzutils/procedures/FrostbiteEffectProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/effects/Cold"
-    },
-    {
-      "name": "FrostbiteEndEff",
-      "type": "procedure",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "frostbite_end_eff",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/tmzutils/procedures/FrostbiteEndEffProcedure.java"
+          "src/main/java/net/mcreator/tmzutils/procedures/CrystalizationEndEffProcedure.java"
         ],
         "dependencies": [
           {
@@ -593,21 +411,149 @@
       "path": "~/effects/Cold"
     },
     {
-      "name": "Crystalization",
-      "type": "potioneffect",
+      "name": "ColdEffect",
+      "type": "procedure",
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crystalization",
+      "registry_name": "cold_effect",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tmzutils/potion/CrystalizationMobEffect.java"
+          "src/main/java/net/mcreator/tmzutils/procedures/ColdEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/effects/Cold/Cold"
+    },
+    {
+      "name": "SevereColdEndEff",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "severe_cold_end_eff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tmzutils/procedures/SevereColdEndEffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/effects/Cold/SevereCold"
+    },
+    {
+      "name": "FrostbiteEndEff",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frostbite_end_eff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tmzutils/procedures/FrostbiteEndEffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
         ]
       },
       "path": "~/effects/Cold"
     },
     {
+      "name": "CrystalizationStartEff",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalization_start_eff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tmzutils/procedures/CrystalizationStartEffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/effects/Cold"
+    },
+    {
+      "name": "ModeratelyColdEndEff",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moderately_cold_end_eff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tmzutils/procedures/ModeratelyColdEndEffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/effects/Cold/ModerateCold"
+    },
+    {
+      "name": "ColdStartEff",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cold_start_eff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tmzutils/procedures/ColdStartEffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/effects/Cold/Cold"
+    },
+    {
+      "name": "SevereColdStartEff",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "severe_cold_start_eff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tmzutils/procedures/SevereColdStartEffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/effects/Cold/SevereCold"
+    },
+    {
       "name": "CrystalizationEffect",
       "type": "procedure",
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystalization_effect",
@@ -629,33 +575,77 @@
       "path": "~/effects/Cold"
     },
     {
-      "name": "CrystalizationEndEff",
+      "name": "FrostbiteEffect",
       "type": "procedure",
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crystalization_end_eff",
+      "registry_name": "frostbite_effect",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tmzutils/procedures/CrystalizationEndEffProcedure.java"
+          "src/main/java/net/mcreator/tmzutils/procedures/FrostbiteEffectProcedure.java"
         ],
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
       "path": "~/effects/Cold"
     },
     {
-      "name": "CrystalizationStartEff",
+      "name": "SevereColdEffect",
       "type": "procedure",
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crystalization_start_eff",
+      "registry_name": "severe_cold_effect",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/tmzutils/procedures/CrystalizationStartEffProcedure.java"
+          "src/main/java/net/mcreator/tmzutils/procedures/SevereColdEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/effects/Cold/SevereCold"
+    },
+    {
+      "name": "Crystalization",
+      "type": "potioneffect",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalization",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tmzutils/potion/CrystalizationMobEffect.java"
+        ]
+      },
+      "path": "~/effects/Cold"
+    },
+    {
+      "name": "ModeratelyColdStartEff",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moderately_cold_start_eff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tmzutils/procedures/ModeratelyColdStartEffProcedure.java"
         ],
         "dependencies": [
           {
@@ -664,7 +654,21 @@
           }
         ]
       },
-      "path": "~/effects/Cold"
+      "path": "~/effects/Cold/ModerateCold"
+    },
+    {
+      "name": "SevereCold",
+      "type": "potioneffect",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "severe_cold",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tmzutils/potion/SevereColdMobEffect.java"
+        ]
+      },
+      "path": "~/effects/Cold/SevereCold"
     }
   ],
   "variable_elements": [],

@@ -1,10 +1,6 @@
 package net.mcreator.tmzutils.procedures;
 
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.commands.CommandSourceStack;
-import net.minecraft.commands.CommandSource;
+import javax.annotation.Nullable;
 
 public class CrystalizationEndEffProcedure {
 	public static void execute(Entity entity) {

@@ -1,17 +1,8 @@
 
 package net.mcreator.tmzutils.potion;
 
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.ai.attributes.AttributeMap;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.effect.MobEffectCategory;
-import net.minecraft.world.effect.MobEffect;
-
-import net.mcreator.tmzutils.procedures.FrostbiteStartEffProcedure;
-import net.mcreator.tmzutils.procedures.FrostbiteEndEffProcedure;
-import net.mcreator.tmzutils.procedures.FrostbiteEffectProcedure;
-
 public class CrystalizationMobEffect extends MobEffect {
+
 	public CrystalizationMobEffect() {
 		super(MobEffectCategory.HARMFUL, -14928994);
 	}

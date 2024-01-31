@@ -271,7 +271,7 @@
           "src/main/java/net/mcreator/tmzutils/potion/SlightlyColdMobEffect.java"
         ]
       },
-      "path": "~/effects/Cold"
+      "path": "~/effects/Cold/SlightCold"
     },
     {
       "name": "SlightlyColdEffect",
@@ -286,7 +286,7 @@
         ],
         "dependencies": []
       },
-      "path": "~/effects/Cold"
+      "path": "~/effects/Cold/SlightCold"
     },
     {
       "name": "ModeratelyCold",
@@ -300,7 +300,7 @@
           "src/main/java/net/mcreator/tmzutils/potion/ModeratelyColdMobEffect.java"
         ]
       },
-      "path": "~/effects/Cold"
+      "path": "~/effects/Cold/ModerateCold"
     },
     {
       "name": "ModeratelyColdEffect",
@@ -320,13 +320,13 @@
           }
         ]
       },
-      "path": "~/effects/Cold"
+      "path": "~/effects/Cold/ModerateCold"
     },
     {
       "name": "Frostbite",
       "type": "potioneffect",
       "sortid": 32,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "frostbite",
       "metadata": {
@@ -334,7 +334,7 @@
           "src/main/java/net/mcreator/tmzutils/potion/FrostbiteMobEffect.java"
         ]
       },
-      "path": "~/effects/Cold"
+      "path": "~/effects/Cold/Frostbite"
     },
     {
       "name": "ColdEndEff",
@@ -360,7 +360,7 @@
       "name": "Cold",
       "type": "potioneffect",
       "sortid": 24,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cold",
       "metadata": {
@@ -388,13 +388,13 @@
           }
         ]
       },
-      "path": "~/effects/Cold"
+      "path": "~/effects/Cold/Crystalization"
     },
     {
       "name": "FrostbiteStartEff",
       "type": "procedure",
       "sortid": 35,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "frostbite_start_eff",
       "metadata": {
@@ -408,13 +408,13 @@
           }
         ]
       },
-      "path": "~/effects/Cold"
+      "path": "~/effects/Cold/Frostbite"
     },
     {
       "name": "ColdEffect",
       "type": "procedure",
       "sortid": 25,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "cold_effect",
       "metadata": {
@@ -434,7 +434,7 @@
       "name": "SevereColdEndEff",
       "type": "procedure",
       "sortid": 30,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "severe_cold_end_eff",
       "metadata": {
@@ -454,7 +454,7 @@
       "name": "FrostbiteEndEff",
       "type": "procedure",
       "sortid": 34,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "frostbite_end_eff",
       "metadata": {
@@ -468,13 +468,13 @@
           }
         ]
       },
-      "path": "~/effects/Cold"
+      "path": "~/effects/Cold/Frostbite"
     },
     {
       "name": "CrystalizationStartEff",
       "type": "procedure",
       "sortid": 39,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "crystalization_start_eff",
       "metadata": {
@@ -488,13 +488,13 @@
           }
         ]
       },
-      "path": "~/effects/Cold"
+      "path": "~/effects/Cold/Crystalization"
     },
     {
       "name": "ModeratelyColdEndEff",
       "type": "procedure",
       "sortid": 23,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "moderately_cold_end_eff",
       "metadata": {
@@ -534,7 +534,7 @@
       "name": "SevereColdStartEff",
       "type": "procedure",
       "sortid": 31,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "severe_cold_start_eff",
       "metadata": {
@@ -572,13 +572,13 @@
           }
         ]
       },
-      "path": "~/effects/Cold"
+      "path": "~/effects/Cold/Crystalization"
     },
     {
       "name": "FrostbiteEffect",
       "type": "procedure",
       "sortid": 33,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "frostbite_effect",
       "metadata": {
@@ -596,13 +596,13 @@
           }
         ]
       },
-      "path": "~/effects/Cold"
+      "path": "~/effects/Cold/Frostbite"
     },
     {
       "name": "SevereColdEffect",
       "type": "procedure",
       "sortid": 29,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "severe_cold_effect",
       "metadata": {
@@ -634,7 +634,7 @@
           "src/main/java/net/mcreator/tmzutils/potion/CrystalizationMobEffect.java"
         ]
       },
-      "path": "~/effects/Cold"
+      "path": "~/effects/Cold/Crystalization"
     },
     {
       "name": "ModeratelyColdStartEff",

@@ -3,9 +3,9 @@
   "_type": "potioneffect",
   "definition": {
     "effectName": "Severe Cold",
-    "icon": "cold4.png",
+    "icon": "cold5.png",
     "color": {
-      "value": -14928994,
+      "value": -15586401,
       "falpha": 0.0
     },
     "isInstant": false,
@@ -14,13 +14,13 @@
     "renderStatusInInventory": true,
     "renderStatusInHUD": true,
     "onStarted": {
-      "name": "FrostbiteStartEff"
+      "name": "CrystalizationStartEff"
     },
     "onActiveTick": {
-      "name": "FrostbiteEffect"
+      "name": "CrystalizationEffect"
     },
     "onExpired": {
-      "name": "FrostbiteEndEff"
+      "name": "CrystalizationEndEff"
     }
   }
 }

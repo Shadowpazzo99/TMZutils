@@ -1,8 +1,17 @@
 
 package net.mcreator.tmzutils.potion;
 
-public class SevereColdMobEffect extends MobEffect {
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.ai.attributes.AttributeMap;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.effect.MobEffectCategory;
+import net.minecraft.world.effect.MobEffect;
 
+import net.mcreator.tmzutils.procedures.SevereColdStartEffProcedure;
+import net.mcreator.tmzutils.procedures.SevereColdEndEffProcedure;
+import net.mcreator.tmzutils.procedures.SevereColdEffectProcedure;
+
+public class SevereColdMobEffect extends MobEffect {
 	public SevereColdMobEffect() {
 		super(MobEffectCategory.HARMFUL, -13473350);
 	}

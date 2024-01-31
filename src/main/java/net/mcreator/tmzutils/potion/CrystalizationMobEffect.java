@@ -1,10 +1,19 @@
 
 package net.mcreator.tmzutils.potion;
 
-public class CrystalizationMobEffect extends MobEffect {
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.ai.attributes.AttributeMap;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.effect.MobEffectCategory;
+import net.minecraft.world.effect.MobEffect;
 
+import net.mcreator.tmzutils.procedures.CrystalizationStartEffProcedure;
+import net.mcreator.tmzutils.procedures.CrystalizationEndEffProcedure;
+import net.mcreator.tmzutils.procedures.CrystalizationEffectProcedure;
+
+public class CrystalizationMobEffect extends MobEffect {
 	public CrystalizationMobEffect() {
-		super(MobEffectCategory.HARMFUL, -14928994);
+		super(MobEffectCategory.HARMFUL, -15586401);
 	}
 
 	@Override
@@ -19,7 +28,7 @@ public class CrystalizationMobEffect extends MobEffect {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		FrostbiteStartEffProcedure.execute(entity);
+		CrystalizationStartEffProcedure.execute(entity);
 	}
 
 	@Override
@@ -29,7 +38,7 @@ public class CrystalizationMobEffect extends MobEffect {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		FrostbiteEffectProcedure.execute(world, entity);
+		CrystalizationEffectProcedure.execute(world, entity);
 	}
 
 	@Override
@@ -40,7 +49,7 @@ public class CrystalizationMobEffect extends MobEffect {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		FrostbiteEndEffProcedure.execute(entity);
+		CrystalizationEndEffProcedure.execute(entity);
 	}
 
 	@Override

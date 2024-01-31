@@ -7,18 +7,18 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.effect.MobEffect;
 
-import net.mcreator.tmzutils.procedures.ModeratelyColdStartEffProcedure;
-import net.mcreator.tmzutils.procedures.ModeratelyColdEndEffProcedure;
-import net.mcreator.tmzutils.procedures.ModeratelyColdEffectProcedure;
+import net.mcreator.tmzutils.procedures.FrostbiteStartEffProcedure;
+import net.mcreator.tmzutils.procedures.FrostbiteEndEffProcedure;
+import net.mcreator.tmzutils.procedures.FrostbiteEffectProcedure;
 
-public class ModeratelyColdMobEffect extends MobEffect {
-	public ModeratelyColdMobEffect() {
-		super(MobEffectCategory.HARMFUL, -9257788);
+public class FrostbiteMobEffect extends MobEffect {
+	public FrostbiteMobEffect() {
+		super(MobEffectCategory.HARMFUL, -14928994);
 	}
 
 	@Override
 	public String getDescriptionId() {
-		return "effect.tmz_utils.moderately_cold";
+		return "effect.tmz_utils.frostbite";
 	}
 
 	@Override
@@ -28,7 +28,7 @@ public class ModeratelyColdMobEffect extends MobEffect {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		ModeratelyColdStartEffProcedure.execute(entity);
+		FrostbiteStartEffProcedure.execute(entity);
 	}
 
 	@Override
@@ -38,7 +38,7 @@ public class ModeratelyColdMobEffect extends MobEffect {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		ModeratelyColdEffectProcedure.execute(entity);
+		FrostbiteEffectProcedure.execute(world, entity);
 	}
 
 	@Override
@@ -49,7 +49,7 @@ public class ModeratelyColdMobEffect extends MobEffect {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		ModeratelyColdEndEffProcedure.execute(entity);
+		FrostbiteEndEffProcedure.execute(entity);
 	}
 
 	@Override

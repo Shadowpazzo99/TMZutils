@@ -2,10 +2,10 @@
   "_fv": 47,
   "_type": "potioneffect",
   "definition": {
-    "effectName": "Moderately Cold",
-    "icon": "cold1.png",
+    "effectName": "Cold",
+    "icon": "cold2.png",
     "color": {
-      "value": -9257788,
+      "value": -11425844,
       "falpha": 0.0
     },
     "isInstant": false,
@@ -14,13 +14,13 @@
     "renderStatusInInventory": true,
     "renderStatusInHUD": true,
     "onStarted": {
-      "name": "ModeratelyColdStartEff"
+      "name": "ColdStartEff"
     },
     "onActiveTick": {
-      "name": "ModeratelyColdEffect"
+      "name": "ColdEffect"
     },
     "onExpired": {
-      "name": "ModeratelyColdEndEff"
+      "name": "ColdEndEff"
     }
   }
 }
